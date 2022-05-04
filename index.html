@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <h1 class="title">Grocery Bud</h1>
+      <h3 id="numberOfProduct">Number of products:</h3>
+
+      <p class="alert">Some message</p>
+
+      <div class="row">
+        <form id="shopping-form" action="#">
+          <input type="text" name="item" id="product-input" />
+          <input type="number" id="product-count" />
+          <button type="button" id="submit-btn">Submit</button>
+          <button type="button" id="update-btn">Update</button>
+
+          <input type="checkbox" id="deleted" />
+          <label for="deleted">Show deleted</label>
+        </form>
+      </div>
+
+      <div class="row">
+        <ul id="products-list"></ul>
+
+        <p class="clear"><a href="#" id="clear">Clear products</a></p>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
